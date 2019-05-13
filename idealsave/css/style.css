@@ -1,0 +1,112 @@
+body{
+    font-family: Rockwell;
+    font-weight: 100;
+    margin:0px;
+}
+.header{
+    width:100%;
+    height:100px;
+    position: fixed;
+    top:0;
+    
+}
+
+.logo{
+        width: 193px;
+        height: 40px;
+        background-image:url(../images/logo.png);
+        background-size:cover;
+        margin:38px 6%;
+        float:left;
+    }
+.header.bg{
+    box-shadow:0px 0px 20px rgba(0,0,0,.3);
+}
+
+.header button{
+    float:right;
+    margin:40px 4%;
+    font-size:15px;
+    padding:11px 10px;
+    border-radius:30px;
+    border:#3B484E;
+    color:#3B484E;
+    background:none;
+    cursor:pointer;
+}
+.header a{
+    float:right;
+    margin:42px 1%;
+    font-size:15px;
+    text-decoration: none;
+    padding:11px 10px;
+    border-radius:30px;
+    border:none;
+    color:#3B484E;
+    background:none;
+    cursor:pointer;
+}
+button.signIn{
+    margin-right: 7%;
+    color: #2DA3E3;
+    padding: 11px 50px;
+    border-radius:10px;
+    border: 2px solid #2DA3E3;
+    transition: all 0.4s ease;
+}
+button.signIn:hover{
+    box-shadow:0px 0px 30px #2DA3E3;
+}
+
+.container{
+    width:auto;
+    height:600px;
+    padding:110px 7%;
+    display:flex;
+    background-image:url(../images/homebg.png);
+    background-size:cover;
+}
+
+.container div{
+    width:50%;
+    height:600px;
+}
+.container div h1{
+    margin:150px 0px 40px;
+    color:#3B484E;
+    font-size: 41px;
+    font-weight: 100;
+}
+
+.container div p{
+    font-weight: 100;
+    color:#3B484E;
+}
+
+.container div p img{
+    width:13px;
+    margin: 0px 3px;
+}
+
+.container .butt{
+    color: #ffffff;
+    margin:20px 0px;
+    padding: 11px 50px;
+    border-radius:30px;
+    box-shadow: 10px 10px 40px rgb(16, 15, 15, .22);
+    transition: all 0.4s ease;
+    background:#2DA3E3;
+    height:50px;
+    outline:0px;
+    border:0px;
+    font-size:15px;
+    cursor:pointer;
+}
+.container .butt:hover{
+    box-shadow:10px 10px 30px rgb(89, 184, 235);
+}
+
+.container .butt img{
+    width:18px;
+    margin: 0px 3px;
+}
